@@ -1,6 +1,7 @@
 import "./App.scss";
 import Header from "./components/Header";
 import Slider from "./components/Slider";
+import Carusel from "./components/Carousel";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <Slider />
       </div>
+      <Carusel />
     </div>
   );
 }
