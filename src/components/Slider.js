@@ -34,9 +34,10 @@ function Slider() {
     <div className="slider">
       <div className="article">
         <img src={photo} alt="theimage" />
-
-        <h2>{name}</h2>
-        <p>{description}</p>
+        <div className="info">
+          <h2>{name}</h2>
+          <p>{description}</p>
+        </div>
         <div className="btns">
           <button onClick={prevItem}>
             <i className="fa-solid fa-angles-left"></i>
