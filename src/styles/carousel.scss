@@ -62,31 +62,43 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 836px) {
   .carousel {
-    width: 85% !important;
+    width: 70% !important;
+    padding-top: 5rem;
+  }
 
-    .card {
-      width: 75% !important;
-      height: 90% !important;
+  .card {
+    width: 50% !important;
+    height: 90% !important;
+  }
 
-      h4 {
-        font-size: 20px;
-      }
+  @media (max-width: 550px) {
+    .carousel {
+      width: 85% !important;
 
-      .price {
-        width: 90%;
-        line-height: 10px;
-      }
+      .card {
+        width: 75% !important;
+        height: 90% !important;
 
-      p {
-        font-size: 17px;
-        font-weight: 600;
-      }
+        h4 {
+          font-size: 20px;
+        }
 
-      img {
-        width: 70% !important;
-        height: 50% !important;
+        .price {
+          width: 90%;
+          line-height: 10px;
+        }
+
+        p {
+          font-size: 17px;
+          font-weight: 600;
+        }
+
+        img {
+          width: 70% !important;
+          height: 50% !important;
+        }
       }
     }
   }
