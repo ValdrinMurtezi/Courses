@@ -2,6 +2,7 @@ import "./App.scss";
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Carusel from "./components/Carousel";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Slider />
       </div>
       <Carusel />
+      <Footer />
     </div>
   );
 }

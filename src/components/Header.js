@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/style.scss";
+import "../styles/header.scss";
 
 function Header() {
   const [active, setActive] = useState(false);
