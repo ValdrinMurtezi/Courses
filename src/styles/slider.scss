@@ -65,12 +65,15 @@
 }
 
 @media (max-width: 1200px) {
+  .slider {
+    padding-bottom: 5rem !important;
+  }
+
   .article {
-    padding-top: 8rem;
+    padding-top: 6rem;
     width: 30rem;
-    height: 45vh !important;
+    height: 50vh !important;
     margin: 0;
-    background-color: aqua;
 
     .info {
       padding-bottom: 8rem;
@@ -83,7 +86,7 @@
       font-size: 17px;
     }
     .btns {
-      bottom: 3% !important;
+      bottom: 1% !important;
     }
   }
 }
