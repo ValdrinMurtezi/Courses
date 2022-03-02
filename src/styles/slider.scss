@@ -49,6 +49,11 @@
     font-size: 20px;
     padding: 0rem 2rem;
     color: antiquewhite;
+    cursor: pointer;
+
+    &:hover {
+      color: orange;
+    }
   }
 }
 .slider {
@@ -63,7 +68,7 @@
   .article {
     padding-top: 8rem;
     width: 30rem;
-    height: 52vh;
+    height: 45vh !important;
     margin: 0;
 
     .info {
@@ -74,12 +79,10 @@
     }
 
     p {
-      // padding-bottom: 13rem;
       font-size: 17px;
     }
     .btns {
       bottom: 3% !important;
-      //   position: relative;
     }
   }
 }
@@ -87,7 +90,7 @@
 @media (max-width: 700px) {
   .article {
     width: 80%;
-    height: 40vh;
+    height: 35vh !important;
     margin: 0;
 
     .info {

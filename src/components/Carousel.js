@@ -16,8 +16,10 @@ function Carusel() {
         <div className="card card-1">
           <img src={"/imgs/css.png"} alt="techimg" />
           <h4>CSS</h4>
-          <p>Duration: 3 month</p>
-          <p>Price: 25$</p>
+          <div className="price">
+            <p>Duration: 3 month</p>
+            <p>Price: 25$</p>
+          </div>
         </div>
 
         <div className="card  card-2">
