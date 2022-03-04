@@ -1,3 +1,5 @@
+$card-section: rgb(44, 43, 43);
+
 .section2 {
   width: 100%;
   height: 90vh;
@@ -5,20 +7,27 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: $card-section;
 
   .carousel {
     width: 80%;
     display: flex;
     justify-content: space-around;
 
+    .rec-item-wrapper {
+      padding: 2rem 0 2rem 0 !important;
+    }
+
     .rec {
       button {
         color: rgb(255, 255, 255);
         box-shadow: none;
-        background: rgba(72, 117, 151, 0.548);
+        background: $card-section;
         border-radius: 30%;
+        box-shadow: 0px 3px 10px black;
+
         &:hover {
-          background-color: rgb(91, 134, 141);
+          background-color: rgb(62, 64, 65);
         }
       }
       .cNNJIt:disabled {
@@ -29,9 +38,9 @@
     .card {
       cursor: pointer;
       width: 60%;
-      height: 100%;
-      background-color: rgba(174, 205, 236, 0.486);
-      border: solid 3px rgba(14, 13, 13, 0.548);
+      background-color: $card-section;
+      // border: solid 3px rgba(14, 13, 13, 0.548);
+      box-shadow: 0px 3px 35px black;
       backdrop-filter: blur(15px);
       display: flex;
       flex-direction: column;
@@ -42,16 +51,17 @@
       border-radius: 10px;
 
       h4 {
-        color: rgb(47, 47, 70);
-        font-size: 20px;
+        color: rgb(250, 250, 250);
+        font-size: 22px;
       }
 
       .price {
         line-height: 10px;
         width: 90%;
         p {
-          font-weight: 600;
-          color: rgba(14, 13, 13, 0.548);
+          font-size: 16px;
+          font-weight: 400;
+          color: rgba(250, 250, 250, 0.959);
         }
       }
     }
