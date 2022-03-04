@@ -31,7 +31,7 @@
       height: 100%;
       background-color: rgba(174, 205, 236, 0.486);
       border: solid 3px rgba(14, 13, 13, 0.548);
-      backdrop-filter: blur(15%);
+      backdrop-filter: blur(15px);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -63,9 +63,12 @@
 }
 
 @media (max-width: 836px) {
+  .section2 {
+    height: 70vh;
+  }
   .carousel {
     width: 70% !important;
-    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .card {
