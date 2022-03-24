@@ -19,25 +19,23 @@ function Header() {
       <nav className={active ? "links active" : "links"}>
         <ul>
           <li>
-            <a href="https://www.youtube.com/">Home</a>
+            <a href="#section1">Home</a>
           </li>
           <li>
-            {" "}
-            <a href="https://www.youtube.com/">About</a>
+            <a href="#section1">About</a>
           </li>
           <li>
-            {" "}
-            <a href="https://www.youtube.com/">Projects</a>
+            <a href="#section1">Projects</a>
           </li>
           <li>
-            <a href="https://www.youtube.com/">Contact</a>
+            <a href="h#section1">Contact</a>
           </li>
         </ul>
       </nav>
       <div onClick={showMenu} className="menu">
         <i
           onClick={changeMenu}
-          className={!menu ? "fas-solid fa-xmark " : "fa-solid fa-bars"}
+          className={!menu ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
         ></i>
       </div>
     </div>
